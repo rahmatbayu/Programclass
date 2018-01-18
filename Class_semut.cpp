@@ -23,3 +23,5 @@ public:
         Jenissemut::karakter = karakter;
         
     }
+    
+    void perolehInfo (void)
