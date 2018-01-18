@@ -26,5 +26,19 @@ public:
     
     void perolehInfo (void)
     
+	{
+	
     cout << "================================JENIS SEMUT================================= " << endl;
-
+    
+     	cout << "Nama Semut            : " << namasemut << endl;
+        cout << "Nama Habitat          : " << habitat << endl;
+        cout << "Nama Makanan          : " << makanan << endl;
+        cout << "Karakter      	       : " << karakter << endl;
+        
+        
+        cout << endl;
+    };
+    };
+int main()
+{
+}
