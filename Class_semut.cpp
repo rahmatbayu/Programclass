@@ -25,3 +25,6 @@ public:
     }
     
     void perolehInfo (void)
+    
+    cout << "================================JENIS SEMUT================================= " << endl;
+
