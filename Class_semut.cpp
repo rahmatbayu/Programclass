@@ -42,10 +42,13 @@ public:
 int main()
 
   { 
-	Jenissemut semutA("semut hitam", "tumpukan batu, daun daun kering yang sudah rusak, memakan serangga pengganggu(hama)", 
-	"lebih aktif di pagi hari dan sore hari");
+	Jenissemut semutA("semut hitam", "tumpukan batu, daun daun kering yang sudah rusak", "memakan serangga pengganggu(hama)", "lebih aktif di pagi hari dan sore hari");
 	
-	Jenissemut semutB("semut merah", "didaunan/tumbuhan, memakan serangga pengganggu(hama)", 
-	"membuat sarang dengan cara mengumpulkan daun daun menjadi sebuah rumah/tempat tinggal");
-	
+	Jenissemut semutB("semut merah", "didaunan/tumbuhan", "memakan serangga pengganggu(hama)", "membuat sarang dengan cara mengumpulkan daun daun menjadi sebuah rumah/tempat tinggal");
+
+	semutA.perolehInfo();
+    
+	semutB.perolehInfo();
+    
+    return 0;	
 }
