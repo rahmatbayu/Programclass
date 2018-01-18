@@ -12,3 +12,7 @@ private:
     string makanan;
     string karakter;
     
+public:
+
+    Jenissemut (string namasemut, string habitat, string makanan, string karakter )
+    
